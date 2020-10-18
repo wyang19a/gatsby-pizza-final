@@ -9,6 +9,9 @@ const SlicemasterGrid = styled.div`
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  }
 `;
 
 const SlicemasterStyles = styled.div`

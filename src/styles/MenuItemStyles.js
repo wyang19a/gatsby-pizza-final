@@ -16,10 +16,18 @@ const MenuItemStyles = styled.div`
     margin: 0;
   }
   button {
-    font-style: 1.5rem;
+    font-size: 1.5rem;
   }
   button + button {
     margin-left: 1rem;
+  }
+  @media (max-width: 500px) {
+    button {
+      font-size: 1rem;
+    }
+    button + button {
+      margin-left: 0.1rem;
+    }
   }
   .remove {
     background: none;
